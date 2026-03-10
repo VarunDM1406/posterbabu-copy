@@ -19,7 +19,6 @@ const PortfolioPage = () => {
 
 const [filter,setFilter] = useState("All");
 const [preview,setPreview] = useState(null);
-
 const categories = ["All","Salon","Gym","Cafe","Retail","Coaching","Festival"];
 
 const filteredItems =

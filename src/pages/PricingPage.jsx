@@ -1,5 +1,35 @@
 import React from "react";
-const PricingPage = ({ navigate }) => (
+import { CheckCircle, Award } from "lucide-react";
+
+const PRICING_PLANS = [
+{
+name:"Fast Draft",
+tagline:"Quick Design",
+oldPrice:99,
+newPrice:49,
+buttonText:"Start Now",
+highlight:false,
+features:["1 Poster","Fast Delivery","WhatsApp Support"]
+},
+{
+name:"Shop Poster",
+tagline:"Best Seller",
+oldPrice:299,
+newPrice:149,
+buttonText:"Order Now",
+highlight:true,
+features:["HD Poster","Business Branding","Quick Delivery"]
+},
+{
+name:"Social Media",
+tagline:"Content Ready",
+oldPrice:199,
+newPrice:79,
+buttonText:"Create Post",
+highlight:false,
+features:["Instagram Post","Optimized Size","Quick Edits"]
+}
+];
   <section className="py-16 px-4 animate-in fade-in slide-in-from-bottom-4 duration-500">
     <div className="max-w-6xl mx-auto">
       <div className="text-center mb-16">
@@ -71,4 +101,3 @@ const PricingPage = ({ navigate }) => (
       </div>
     </div>
   </section>
-);

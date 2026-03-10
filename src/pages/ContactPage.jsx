@@ -1,5 +1,5 @@
 import React from "react";
-const ContactPage = () => (
+import { Mail, MessageCircle, Send } from "lucide-react";
   <section className="py-16 px-4 animate-in fade-in duration-500">
     <div className="max-w-6xl mx-auto">
       <div className="text-center mb-16">
@@ -71,4 +71,3 @@ const ContactPage = () => (
       </div>
     </div>
   </section>
-);

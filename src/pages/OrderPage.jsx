@@ -1,5 +1,5 @@
-import React from "react";
-const OrderPage = () => {
+import React, { useState } from "react";
+import { MessageCircle, Zap } from "lucide-react";
   const [formData, setFormData] = useState({
     name: '',
     business: '',
@@ -77,4 +77,3 @@ const OrderPage = () => {
       </div>
     </section>
   );
-};
